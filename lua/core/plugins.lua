@@ -45,6 +45,22 @@ return packer.startup(function(use)
 	use ("nvim-tree/nvim-tree.lua")
 	use ("nvim-tree/nvim-web-devicons")
 	use ("nvim-lualine/lualine.nvim")
+	use ("mg979/vim-visual-multi")
+  use { 
+    "Exafunction/codeium.vim",
+    config = function ()
+      vim.keymap.set('i', '<C-g>', function () return vim.fn['codeium#Accept']() end, { expr = true, silent = true })
+      vim.keymap.set('i', '<c-;>', function() return vim.fn['codeium#CycleCompletions'](1) end, { expr = true, silent = true })
+      vim.keymap.set('i', '<c-,>', function() return vim.fn['codeium#CycleCompletions'](-1) end, { expr = true, silent = true })
+      vim.keymap.set('i', '<c-x>', function() return vim.fn['codeium#Clear']() end, { expr = true, silent = true })
+    end
+  }
+  use {
+    "williamboman/mason.nvim",
+    "williamboman/mason-lspconfig.nvim",
+    "neovim/nvim-lspconfig",
+  }
+
 
 	if PACKER_BOOTSTRAP then
 		require("packer").sync()
