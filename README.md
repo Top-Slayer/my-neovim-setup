@@ -11,5 +11,7 @@
 - **For Linux**
 
   >  cd ~/.config/
+  
   >  git clone https://github.com/Top-Slayer/my-neovim-config.git
+  
   >  mv my-neovim-config nvim
