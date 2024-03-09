@@ -10,18 +10,18 @@ o.showcmd = true
 o.laststatus = 2
 o.autowrite = true
 o.autoread = true
-
 o.tabstop = 2
 o.shiftwidth = 2
 o.shiftround = true
 o.expandtab = true
+o.clipboard = 'unnamedplus'
 
 vim.wo.relativenumber = true
 vim.wo.number = true
 
 k.set('n', '<leader>h', ':nohlsearch<CR>')
 
--- switch spilt buffer
+-- switch spilt screens 
 k.set("n", "<C-h>", "<C-w>h")
 k.set("n", "<C-j>", "<C-w>j")
 k.set("n", "<C-k>", "<C-w>k")

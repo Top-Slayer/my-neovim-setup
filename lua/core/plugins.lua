@@ -41,12 +41,20 @@ packer.init({
 -- Install your plugins here
 return packer.startup(function(use)
 	use ("wbthomason/packer.nvim") 
+
 	use ("folke/tokyonight.nvim") 
+
 	use ("nvim-tree/nvim-tree.lua")
+
+  use {'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'}
+  
 	use ("nvim-tree/nvim-web-devicons")
+
 	use ("nvim-lualine/lualine.nvim")
+
 	use ("mg979/vim-visual-multi")
-  use { 
+
+  use {
     "Exafunction/codeium.vim",
     config = function ()
       vim.keymap.set('i', '<C-g>', function () return vim.fn['codeium#Accept']() end, { expr = true, silent = true })
@@ -55,12 +63,14 @@ return packer.startup(function(use)
       vim.keymap.set('i', '<c-x>', function() return vim.fn['codeium#Clear']() end, { expr = true, silent = true })
     end
   }
+
   use {
     "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim",
     "neovim/nvim-lspconfig",
   }
 
+  use ("windwp/nvim-autopairs")
 
 	if PACKER_BOOTSTRAP then
 		require("packer").sync()
