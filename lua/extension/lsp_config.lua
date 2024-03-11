@@ -1,12 +1,10 @@
-require("mason").setup()
-require("mason-lspconfig").setup({
-  ensure_installed = {
-    "ast_grep",
+local langs = {
     "lua_ls",
+    "ast_grep",
     "bashls",
     "clangd",
-    "omnisharp",
     "omnisharp_mono",
+    "omnisharp",
     "cssls",
     "cssmodules_ls",
     "unocss",
@@ -20,6 +18,12 @@ require("mason-lspconfig").setup({
     "vtsls",
     "pyright",
   }
+
+require("mason").setup()
+require("mason-lspconfig").setup({
+  ensure_installed = langs
 })
 
-require("lspconfig").lua_ls.setup{}
+for _, lang in ipairs(langs) do
+  require("lspconfig")[lang].setup{}
+end
