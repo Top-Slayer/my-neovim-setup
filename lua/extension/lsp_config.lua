@@ -20,6 +20,7 @@ local langs = {
   }
 
 require("mason").setup()
+
 require("mason-lspconfig").setup({
   ensure_installed = langs
 })
@@ -27,3 +28,4 @@ require("mason-lspconfig").setup({
 for _, lang in ipairs(langs) do
   require("lspconfig")[lang].setup{}
 end
+

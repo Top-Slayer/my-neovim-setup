@@ -21,6 +21,13 @@ vim.wo.number = true
 
 k.set('n', '<leader>h', ':nohlsearch<CR>')
 
+-- switch buffer
+k.set("n", "L", ":BufferLineCycleNext<CR>", { silent = true })
+k.set("n", "H", ":BufferLineCyclePrev<CR>", { silent = true })
+
+-- open tree
+k.set("n", "<C-q>", ":NvimTreeToggle<CR>", { silent = true })
+
 -- switch spilt screens 
 k.set("n", "<C-h>", "<C-w>h")
 k.set("n", "<C-j>", "<C-w>j")

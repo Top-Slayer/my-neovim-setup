@@ -69,8 +69,19 @@ return packer.startup(function(use)
     "williamboman/mason-lspconfig.nvim",
     "neovim/nvim-lspconfig",
   }
-
   use ("windwp/nvim-autopairs")
+
+  -- cmp
+	use("hrsh7th/nvim-cmp") -- The completion plugin
+	use("hrsh7th/cmp-buffer") -- buffer completions
+	use("hrsh7th/cmp-path") -- path completions
+	use("hrsh7th/cmp-cmdline") -- cmdline completions
+	use("hrsh7th/cmp-nvim-lua") -- snippets
+
+	-- snippet
+	use("L3MON4D3/LuaSnip") --snippet engine
+	use("rafamadriz/friendly-snippets") -- a bunch of snippets to use
+	use("saadparwaiz1/cmp_luasnip")
 
 	if PACKER_BOOTSTRAP then
 		require("packer").sync()
