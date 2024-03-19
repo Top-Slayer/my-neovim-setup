@@ -83,6 +83,9 @@ return packer.startup(function(use)
 	use("rafamadriz/friendly-snippets") -- a bunch of snippets to use
 	use("saadparwaiz1/cmp_luasnip")
 
+  -- move line
+	use("fedepujol/move.nvim")
+
 	if PACKER_BOOTSTRAP then
 		require("packer").sync()
 	end

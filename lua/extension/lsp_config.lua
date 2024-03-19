@@ -1,6 +1,4 @@
 local langs = {
-    "lua_ls",
-    "ast_grep",
     "bashls",
     "clangd",
     "omnisharp_mono",
@@ -17,6 +15,8 @@ local langs = {
     "tsserver",
     "vtsls",
     "pyright",
+    "lua_ls",
+    "ast_grep",
   }
 
 require("mason").setup()
