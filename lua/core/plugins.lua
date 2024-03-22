@@ -69,7 +69,12 @@ return packer.startup(function(use)
     "williamboman/mason-lspconfig.nvim",
     "neovim/nvim-lspconfig",
   }
+
   use ("windwp/nvim-autopairs")
+  use ("windwp/nvim-ts-autotag")
+
+  -- comment
+  use ('numToStr/Comment.nvim')
 
   -- cmp
 	use("hrsh7th/nvim-cmp") -- The completion plugin
@@ -85,6 +90,16 @@ return packer.startup(function(use)
 
   -- move line
 	use("fedepujol/move.nvim")
+
+  -- track coding with wakatime
+	use("wakatime/vim-wakatime")
+
+  -- formatting
+	use{
+    "stevearc/conform.nvim",
+  }
+
+  use ('nvim-treesitter/nvim-treesitter')
 
 	if PACKER_BOOTSTRAP then
 		require("packer").sync()
