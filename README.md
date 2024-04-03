@@ -1,14 +1,20 @@
+## **Requirement**
+
+- Git bash
+
+> *link: https://git-scm.com/downloads*
+
 ## **Installing this config**
 
--  **For Window**
+-  **For Window in CMD**
 
-       cd C:\Users\YourName\AppData\Local\
+       cd %USERPROFILE%\AppData\Local\
 
        git clone https://github.com/Top-Slayer/my-neovim-config.git
 
        rename my-neovim-config nvim
 
-- **For Linux**
+- **For Linux in Bash | Shell**
   
       cd ~/.config/
   
