@@ -14,6 +14,8 @@
 
        rename my-neovim-config nvim
 
+       copy nvim\alacritty.toml %USERPROFILE%\AppData\Roaming
+
 - **For Linux in Bash | Shell**
   
       cd ~/.config/
