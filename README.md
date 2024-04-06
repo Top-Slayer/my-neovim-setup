@@ -4,6 +4,10 @@
 
 > *link: https://git-scm.com/downloads*
 
+- Alacritty Emulator terminal
+
+> *Link: https://alacritty.org/* 
+
 ## **Installing this config**
 
 -  **For Window in CMD**
