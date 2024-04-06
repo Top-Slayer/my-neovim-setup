@@ -16,7 +16,7 @@
 
        mkdir %USERPROFILE%\AppData\Roaming\alacritty
 
-       copy nvim\alacritty.toml %USERPROFILE%\AppData\Roaming
+       copy nvim\alacritty.toml %USERPROFILE%\AppData\Roaming\alacritty
 
 - **For Linux in Bash | Shell**
   
