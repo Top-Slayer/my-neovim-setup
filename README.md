@@ -2,7 +2,7 @@
 
 ### **Dev tool**
 
-- Git bash
+- Git bash <a href="https://git-scm.com/downloads" target="_blank">[ Link... ]</a>
 
 > *link: https://git-scm.com/downloads*
 
