@@ -2,33 +2,21 @@
 
 ### **Dev tool**
 
-- Git bash <a href="https://git-scm.com/downloads" target="_blank">Link...</a>
+- Git bash <a href="https://git-scm.com/downloads" target="_blank">[ Link... ]</a>
 
-> *link: https://git-scm.com/downloads*
+- Alacritty Emulator terminal <a href="https://alacritty.org/" target="_blank">[ Link... ]</a>
 
-- Alacritty Emulator terminal
-
-> *Link: https://alacritty.org/*
-
-- Neovim editor
-
-> *Link: https://github.com/neovim/neovim/blob/master/INSTALL.md*
+- Neovim editor <a href="https://github.com/neovim/neovim/blob/master/INSTALL.md" target="_blank">[ Link... ]</a>
 
 ### **Programming language & runtime**
 
-- Node.js
+- Node.js <a href="https://nodejs.org/en/download" target="_blank">[ Link... ]</a>
 
-> *Link: https://nodejs.org/en/download*
-
-- Golang
-
-> *Link: https://go.dev/dl/*
+- Golang <a href="https://go.dev/dl/" target="_blank">[ Link... ]</a>
 
 ### **Fonts**
 
-- JetBrainsMono Nerd Font
-
-> *Link: https://www.nerdfonts.com/font-downloads*
+- JetBrainsMono Nerd Font <a href="https://www.nerdfonts.com/font-downloads" target="_blank">[ Link... ]</a>
 
 ## **Installing this config**
 
