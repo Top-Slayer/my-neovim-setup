@@ -1,12 +1,28 @@
 ## **Requirement**
 
+### **Dev tool**
+
 - Git bash
 
 > *link: https://git-scm.com/downloads*
 
 - Alacritty Emulator terminal
 
-> *Link: https://alacritty.org/* 
+> *Link: https://alacritty.org/*
+
+- Neovim editor
+
+> *Link: https://github.com/neovim/neovim/blob/master/INSTALL.md*
+
+### **Programming language & runtime**
+
+- Node.js
+
+> *Link: https://nodejs.org/en/download*
+
+- Golang
+
+> *Link: https://go.dev/dl/*
 
 ## **Installing this config**
 
