@@ -24,6 +24,12 @@
 
 > *Link: https://go.dev/dl/*
 
+### **Fonts**
+
+- JetBrainsMono Nerd Font
+
+> *Link: https://www.nerdfonts.com/font-downloads*
+
 ## **Installing this config**
 
 Can copy and paste in terminal.
