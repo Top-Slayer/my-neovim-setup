@@ -28,7 +28,7 @@
 
 Can copy and paste in terminal.
 
--  **For Window in CMD**
+-  **For Window use [ Command Prompt ]**
 
        cd %USERPROFILE%\AppData\Local\
 
@@ -40,7 +40,7 @@ Can copy and paste in terminal.
 
        copy nvim\alacritty.toml %USERPROFILE%\AppData\Roaming\alacritty
 
-- **For Linux in Bash | Shell**
+- **For Linux use [ Bash | Shell terminal ]**
   
       cd ~/.config/
   
