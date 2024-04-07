@@ -26,6 +26,8 @@
 
 ## **Installing this config**
 
+Can copy and paste in terminal.
+
 -  **For Window in CMD**
 
        cd %USERPROFILE%\AppData\Local\
