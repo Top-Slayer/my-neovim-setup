@@ -18,7 +18,7 @@
 
 - JetBrainsMono Nerd Font <a href="https://www.nerdfonts.com/font-downloads" target="_blank">[ Link... ]</a>
 
-## **Installing this config**
+## **Installing Neovim's and Alacritty's config**
 
 Can copy and paste in terminal.
 
@@ -36,8 +36,14 @@ Can copy and paste in terminal.
 
 - **For Linux use [ Bash | Shell terminal ]**
   
-      cd ~/.config/
-  
-      git clone https://github.com/Top-Slayer/my-neovim-config.git
-  
-      mv my-neovim-config nvim
+       cd ~/.config/
+       
+       git clone https://github.com/Top-Slayer/my-neovim-config.git
+       
+       mv my-neovim-config nvim
+
+       mkdir ~/.config/alacritty
+
+       cp nvim/alacritty.toml ~/.config/alacritty
+
+## **Optional for Window user**
