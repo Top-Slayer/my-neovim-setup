@@ -47,3 +47,13 @@ Can copy and paste in terminal.
        cp nvim/alacritty.toml ~/.config/alacritty
 
 ## **Optional for Window user**
+
+- ### Tmux
+
+Open WSL on window follow below:
+
+> Apps & features > Programs and Features > Turn Windows features on or off > Windows Subsystem for Linux
+
+ **Click:** OK !!!
+
+ **Download Distributor of linux in Microsoft store [ Ubuntu suggested ]**
