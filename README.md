@@ -50,10 +50,12 @@ Can copy and paste in terminal.
 
 - ### Tmux
 
-Open WSL on window follow below:
+Activate WSL on window follow below:
 
 > Apps & features > Programs and Features > Turn Windows features on or off > Windows Subsystem for Linux
 
  **Click:** OK !!!
 
  **Download Distributor of linux in Microsoft store [ Ubuntu suggested ]**
+
+- Copy .tmux.config file into WSL home path
