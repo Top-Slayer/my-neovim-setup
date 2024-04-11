@@ -15,4 +15,4 @@ require("extension.autotag")
 
 require("theme.tokyonight_theme")
 require("theme.nvim_web_devicons")
-require("theme.lualine")
+-- require("theme.lualine")
