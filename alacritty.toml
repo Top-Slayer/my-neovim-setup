@@ -2,8 +2,8 @@
 TERM = "xterm-256color"
 
 [shell]
-program = "C:\\Windows\\System32\\wsl.exe -d ubuntu"
-#program = "C:\\Program Files\\Git\\bin\\bash.exe"
+# program = "C:\\Windows\\System32\\wsl.exe -d ubuntu"
+# program = "C:\\Program Files\\Git\\bin\\bash.exe"
 
 [font]
 normal = { family = "JetBrainsMono Nerd Font", style="Bold" }
