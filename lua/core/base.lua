@@ -5,6 +5,10 @@ local w = vim.wo
 g.mapleader = ' '
 g.maplocalleader = ' '
 
+g.OmniSharp_server_use_mono = 1
+g.OmniSharp_start_server = 1
+g.coc_global_extensions = {'coc-html', 'coc-css', 'coc-tsserver'}
+
 o.backspace = '2'
 o.showcmd = true
 o.laststatus = 2
@@ -16,6 +20,5 @@ o.shiftround = true
 o.expandtab = true
 o.clipboard = 'unnamedplus'
 
-w.relativenumber = true
 w.number = true
 

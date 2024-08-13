@@ -101,6 +101,20 @@ return packer.startup(function(use)
 
   use ('nvim-treesitter/nvim-treesitter')
 
+  -- C# extension
+	use 'OmniSharp/omnisharp-vim'
+  use {'neoclide/coc.nvim', branch = 'release'}
+  use 'sheerun/vim-polyglot'
+
+	use 'nickspoons/vim-sharpenup'
+
+	use 'dense-analysis/ale'
+
+	use 'junegunn/fzf'
+	use 'junegunn/fzf.vim'
+
+	use 'prabirshrestha/asyncomplete.vim'
+
 	if PACKER_BOOTSTRAP then
 		require("packer").sync()
 	end
