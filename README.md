@@ -58,6 +58,4 @@ Activate WSL on window follow below:
 
  **Download Distributor of linux in Microsoft store [ Ubuntu suggested ]**
 
-- Create "~/.tmux" directory and Copy ".tmux.config' file to "~/.tmux/" of WSL and then use below command:
-
-         ln -s -f /.tmux/.tmux.config
+         cd && ln -s -f ~/.config/.tmux.conf
